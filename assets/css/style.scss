@@ -1,0 +1,131 @@
+---
+---
+// Mobile-first styles. Change the colors below to match the school.
+
+:root {
+  --bg: #ffffff;
+  --surface: #f4f6f8;
+  --text: #1c2430;
+  --muted: #5a6573;
+  --border: #d9dee4;
+  --accent: #1f5fae;
+  --accent-text: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12161c;
+    --surface: #1c222b;
+    --text: #e6e9ee;
+    --muted: #a3acb8;
+    --border: #2e3642;
+    --accent: #6ea8f0;
+    --accent-text: #0b1220;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #0b1220; // shown while the background image loads (matches its tone)
+  color: var(--text);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+}
+
+// Full-page background image. A fixed pseudo-element instead of
+// `background-attachment: fixed`, which mobile Safari ignores.
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: url("../images/banner.jpeg") center / cover no-repeat;
+}
+
+a { color: var(--accent); }
+a:focus-visible, .btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+.container { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+
+// Content sits on a panel so text stays readable over the image.
+main.container {
+  width: calc(100% - 16px);
+  margin: 16px auto;
+  padding-top: 24px;
+  padding-bottom: 32px;
+  background: var(--bg);
+  background: color-mix(in srgb, var(--bg) 94%, transparent);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, .35);
+}
+@media (min-width: 600px) {
+  main.container { margin: 32px auto; padding: 32px 24px 40px; }
+}
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+.skip-link { position: absolute; left: -9999px; }
+.skip-link:focus { left: 16px; top: 8px; background: var(--bg); padding: 8px; z-index: 10; }
+
+// Header
+.site-header { background: var(--surface); border-bottom: 1px solid var(--border); }
+.header-inner { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding-top: 12px; padding-bottom: 12px; }
+.site-title { font-weight: 700; color: var(--text); text-decoration: none; margin-right: auto; }
+.nav, .lang-switch { display: flex; flex-wrap: wrap; gap: 4px 12px; list-style: none; margin: 0; padding: 0; }
+.nav a { text-decoration: none; font-weight: 600; }
+.nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: 4px; }
+
+h1 { font-size: 1.75rem; margin: 0 0 8px; }
+h2 { font-size: 1.3rem; margin: 32px 0 12px; }
+h3 { font-size: 1.05rem; margin: 20px 0 8px; color: var(--muted); }
+
+// Class tiles (home)
+.class-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; list-style: none; padding: 0; margin: 0; }
+.class-tile {
+  display: flex; flex-direction: column; gap: 4px; padding: 16px;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+  text-decoration: none; color: var(--text);
+}
+.class-tile:hover { border-color: var(--accent); }
+.class-name { font-size: 1.4rem; font-weight: 700; }
+.class-subjects { color: var(--muted); font-size: .9rem; }
+
+// Material cards
+.materials { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: auto 1fr; gap: 8px 12px; align-items: start;
+  padding: 12px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+}
+.file-icon {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 48px; height: 48px; padding: 0 6px; border-radius: 6px;
+  background: var(--accent); color: var(--accent-text); font-size: .75rem; font-weight: 700;
+}
+.file-pdf  { background: #c0392b; color: #fff; }
+.file-docx { background: #2b579a; color: #fff; }
+.file-pptx { background: #c43e1c; color: #fff; }
+.file-xlsx { background: #217346; color: #fff; }
+.card-title { margin: 0; font-size: 1rem; }
+.card-desc, .card-meta { margin: 2px 0 0; color: var(--muted); font-size: .9rem; }
+.btn {
+  grid-column: 1 / -1; justify-self: stretch; text-align: center;
+  padding: 10px 16px; border-radius: 6px; font-weight: 600; text-decoration: none;
+  background: var(--accent); color: var(--accent-text);
+}
+.empty { color: var(--muted); }
+h2 .code { color: var(--muted); font-weight: 400; font-size: .9em; }
+
+// Announcements
+.announcement { padding: 12px 16px; margin-bottom: 10px; border-left: 4px solid var(--accent); background: var(--surface); border-radius: 0 8px 8px 0; }
+.announcement-title { margin: 0; font-size: 1.05rem; color: var(--text); }
+.announcement-body p { margin: 8px 0 0; }
+
+@media (min-width: 600px) {
+  .card { grid-template-columns: auto 1fr auto; align-items: center; }
+  .btn { grid-column: auto; justify-self: end; }
+}
+
+.site-footer { background: var(--surface); border-top: 1px solid var(--border); color: var(--muted); font-size: .85rem; padding: 16px 0; }

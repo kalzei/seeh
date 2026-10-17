@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{%- assign t = site.data.i18n[page.lang] %}
+<h1>{{ t.site_title }}</h1>
+<p>{{ t.intro }}</p>
+{{ content }}
+
+<section aria-labelledby="classes-heading">
+  <h2 id="classes-heading">{{ t.classes }}</h2>
+  <ul class="class-grid">
+    {%- for cls in site.data.classes %}
+    <li>
+      <a class="class-tile" href="{{ '/' | append: page.lang | append: '/' | append: cls.slug | append: '/' | relative_url }}">
+        <span class="class-name">{{ cls.name[page.lang] }}</span>
+        <span class="class-subjects">{% for slug in cls.subjects %}{% assign s = site.data.subjects | where: "slug", slug | first %}{{ s.code }}{% unless forloop.last %} · {% endunless %}{% endfor %}</span>
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+
+{%- assign news = site.announcements | sort: "date" | reverse %}
+{%- if news.size > 0 %}
+<section aria-labelledby="news-heading">
+  <h2 id="news-heading">{{ t.announcements }}</h2>
+  {%- for a in news limit: 3 %}
+  {% include announcement.html a=a %}
+  {%- endfor %}
+  {%- if news.size > 3 %}
+  <p><a href="{{ '/' | append: page.lang | append: '/announcements/' | relative_url }}">{{ t.all_announcements }}</a></p>
+  {%- endif %}
+</section>
+{%- endif %}
+
+<section aria-labelledby="latest-heading">
+  <h2 id="latest-heading">{{ t.latest }}</h2>
+  {%- assign latest = site.data.materials | sort: "date" | reverse %}
+  <ul class="materials">
+    {%- for item in latest limit: 5 %}
+    {% include material-card.html item=item show_class=true %}
+    {%- endfor %}
+  </ul>
+</section>

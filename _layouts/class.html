@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{%- assign t = site.data.i18n[page.lang] %}
+{%- assign cls = site.data.classes | where: "slug", page.class | first %}
+<h1>{{ cls.name[page.lang] }}</h1>
+{{ content }}
+
+{%- assign class_items = site.data.materials | where: "class", page.class %}
+{%- for slug in cls.subjects %}
+{%- assign subject = site.data.subjects | where: "slug", slug | first %}
+<section aria-labelledby="subj-{{ subject.slug }}">
+  <h2 id="subj-{{ subject.slug }}">{{ subject.name[page.lang] }} <span class="code">({{ subject.code }})</span></h2>
+  {%- assign items = class_items | where: "subject", subject.slug %}
+  {%- if items.size == 0 %}
+  <p class="empty">{{ t.no_materials }}</p>
+  {%- else %}
+  {%- assign units = items | sort: "unit", "last" | group_by: "unit" %}
+  {%- for unit in units %}
+  <h3>{% if unit.name == "" %}{{ t.general }}{% else %}{{ t.unit }} {{ unit.name }}{% endif %}</h3>
+  <ul class="materials">
+    {%- assign unit_items = unit.items | sort: "date" | reverse %}
+    {%- for item in unit_items %}
+    {% include material-card.html item=item %}
+    {%- endfor %}
+  </ul>
+  {%- endfor %}
+  {%- endif %}
+</section>
+{%- endfor %}

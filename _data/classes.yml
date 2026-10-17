@@ -1,0 +1,26 @@
+# Classes and the subjects (slugs from subjects.yml) taught in each.
+# `slug` is used in URLs, materials.yml and the materials/ folders.
+# Each class also needs a page in el/ and en/ (see el/s4.md).
+- slug: s2
+  name: { el: "S2", en: "S2" }
+  subjects: [bio, isc, sts, geo]
+
+- slug: s3
+  name: { el: "S3", en: "S3" }
+  subjects: [bio, isc, sts, geo]
+
+- slug: s4
+  name: { el: "S4", en: "S4" }
+  subjects: [bio, isc, sts, geo]
+
+- slug: s5
+  name: { el: "S5", en: "S5" }
+  subjects: [bio, isc, sts, geo]
+
+- slug: s6
+  name: { el: "S6", en: "S6" }
+  subjects: [bio, isc, sts, geo]
+
+- slug: s7
+  name: { el: "S7", en: "S7" }
+  subjects: [bio, isc, sts, geo]

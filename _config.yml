@@ -1,0 +1,35 @@
+# Site settings. Localized titles and UI strings live in _data/i18n.yml.
+title: "Course Materials"
+
+# Project repo: "/<repo-name>". User site (<user>.github.io) or custom domain: "".
+baseurl: "/SEEH"
+# e.g. "https://<user>.github.io" (used for absolute links only)
+url: ""
+
+default_lang: el
+languages: [el, en]
+
+markdown: kramdown
+
+# Announcements: one file per announcement in _announcements/, both languages inside.
+# output: false -> no separate page per announcement; they are listed by the layouts.
+collections:
+  announcements:
+    output: false
+
+exclude:
+  - PLAN.md
+  - README.md
+  - AGENTS.md
+  - Dockerfile
+  - compose.yaml
+  - TEACHER_GUIDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+defaults:
+  - scope: { path: "el" }
+    values: { lang: el }
+  - scope: { path: "en" }
+    values: { lang: en }

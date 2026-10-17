@@ -1,0 +1,27 @@
+# Local preview: docker compose up --build  →  http://localhost:4000/SEEH/
+services:
+  site:
+    build: .
+    image: seeh-site:local
+    volumes:
+      - ./:/site:ro
+    ports:
+      - "127.0.0.1:4000:4000"     # site
+      - "127.0.0.1:35729:35729"   # livereload
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    healthcheck:
+      # TCP check: an HTTP probe would spam the log with 404s (the site lives under baseurl).
+      test: ["CMD", "ruby", "-rsocket", "-e", "TCPSocket.new('localhost', 4000).close"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

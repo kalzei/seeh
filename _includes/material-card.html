@@ -1,0 +1,17 @@
+{%- assign t = site.data.i18n[page.lang] %}
+{%- assign item = include.item %}
+{%- assign title = item.title[page.lang] %}
+<li class="card">
+  <span class="file-icon file-{{ item.type }}" aria-hidden="true">{{ item.type | upcase }}</span>
+  <div class="card-body">
+    <h4 class="card-title">{{ title }}</h4>
+    {%- if item.description %}
+    <p class="card-desc">{{ item.description[page.lang] }}</p>
+    {%- endif %}
+    <p class="card-meta">
+      {%- if include.show_class %}{{ item.class | upcase }} · {{ item.subject | upcase }} · {% endif -%}
+      <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%d/%m/%Y" }}</time>
+    </p>
+  </div>
+  <a class="btn" href="{{ item.file | relative_url }}" download>{{ t.download }}<span class="visually-hidden">: {{ title }}</span></a>
+</li>

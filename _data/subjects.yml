@@ -1,0 +1,16 @@
+# Subjects, referenced by slug from classes.yml and materials.yml.
+- slug: bio
+  code: BIO
+  name: { el: "Βιολογία", en: "Biology" }
+
+- slug: isc
+  code: ISC
+  name: { el: "Ολοκληρωμένες Φυσικές Επιστήμες", en: "Integrated Science" }
+
+- slug: sts
+  code: STS
+  name: { el: "Επιστήμη, Τεχνολογία και Κοινωνία", en: "Science, Technology and Society" }
+
+- slug: geo
+  code: GEO
+  name: { el: "Γεωγραφία", en: "Geography" }

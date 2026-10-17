@@ -1,0 +1,17 @@
+{%- assign t = site.data.i18n[page.lang] %}
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="site-title" href="{{ '/' | append: page.lang | append: '/' | relative_url }}">{{ t.site_title }}</a>
+    <nav aria-label="{{ t.classes }}">
+      <ul class="nav">
+        {%- for cls in site.data.classes %}
+        {%- assign href = '/' | append: page.lang | append: '/' | append: cls.slug | append: '/' %}
+        <li><a href="{{ href | relative_url }}"{% if page.url == href %} aria-current="page"{% endif %}>{{ cls.name[page.lang] }}</a></li>
+        {%- endfor %}
+        {%- assign href = '/' | append: page.lang | append: '/announcements/' %}
+        <li><a href="{{ href | relative_url }}"{% if page.url == href %} aria-current="page"{% endif %}>{{ t.announcements }}</a></li>
+      </ul>
+    </nav>
+    {% include lang-switch.html %}
+  </div>
+</header>

@@ -1,0 +1,10 @@
+_site/
+.jekyll-cache/
+.sass-cache/
+vendor/
+Gemfile.lock
+
+.env
+*.pem
+*.key
+secrets.*

@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{%- assign t = site.data.i18n[page.lang] %}
+<h1>{{ t.announcements }}</h1>
+{{ content }}
+{%- assign news = site.announcements | sort: "date" | reverse %}
+{%- for a in news %}
+{% include announcement.html a=a level=2 %}
+{%- else %}
+<p class="empty">{{ t.no_announcements }}</p>
+{%- endfor %}

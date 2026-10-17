@@ -1,0 +1,10 @@
+{%- comment %} One announcement in the current language, falling back to the default language. {% endcomment %}
+{%- assign a = include.a %}
+{%- assign h = include.level | default: 3 %}
+{%- assign title = a.title[page.lang] | default: a.title[site.default_lang] %}
+{%- assign body = a[page.lang] | default: a[site.default_lang] %}
+<article class="announcement">
+  <h{{ h }} class="announcement-title">{{ title }}</h{{ h }}>
+  <p class="card-meta"><time datetime="{{ a.date | date: '%Y-%m-%d' }}">{{ a.date | date: "%d/%m/%Y" }}</time></p>
+  <div class="announcement-body">{{ body | markdownify }}</div>
+</article>

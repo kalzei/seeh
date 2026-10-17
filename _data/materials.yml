@@ -1,0 +1,34 @@
+# Downloadable items. To add one: upload the file under materials/<class>/<subject>/,
+# then copy an entry below and change its fields.
+#   class / subject: slugs from _data/classes.yml
+#   unit:            number (optional; items without a unit are listed as "General")
+#   type:            pdf, docx, pptx, xlsx, zip, img ...
+- id: s4-bio-sample
+  class: s4
+  subject: bio
+  unit: 1
+  title: { el: "Δείγμα σημειώσεων", en: "Sample notes" }
+  description: { el: "Δοκιμαστικό αρχείο PDF.", en: "Test PDF file." }
+  file: /materials/s4/bio/sample.pdf
+  type: pdf
+  date: 2026-10-17
+
+- id: s5-geo-sample
+  class: s5
+  subject: geo
+  unit: 1
+  title: { el: "Δείγμα σημειώσεων", en: "Sample notes" }
+  description: { el: "Δοκιμαστικό αρχείο PDF.", en: "Test PDF file." }
+  file: /materials/s5/geo/sample.pdf
+  type: pdf
+  date: 2026-10-17
+
+- id: s6-sts-sample
+  class: s6
+  subject: sts
+  unit: 1
+  title: { el: "Δείγμα σημειώσεων", en: "Sample notes" }
+  description: { el: "Δοκιμαστικό αρχείο PDF.", en: "Test PDF file." }
+  file: /materials/s6/sts/sample.pdf
+  type: pdf
+  date: 2026-10-17

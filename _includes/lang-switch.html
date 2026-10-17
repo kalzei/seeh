@@ -1,0 +1,10 @@
+{%- comment %} Links to the page with the same `ref` in the other language(s). {% endcomment %}
+{%- if page.ref %}
+<ul class="lang-switch" aria-label="{{ site.data.i18n[page.lang].switch_lang }}">
+  {%- for p in site.pages %}
+  {%- if p.ref == page.ref and p.lang and p.lang != page.lang %}
+  <li><a href="{{ p.url | relative_url }}" lang="{{ p.lang }}" hreflang="{{ p.lang }}">{{ site.data.i18n[p.lang].lang_name }}</a></li>
+  {%- endif %}
+  {%- endfor %}
+</ul>
+{%- endif %}
