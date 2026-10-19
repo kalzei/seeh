@@ -8,8 +8,28 @@
   subject: bio
   unit: 1
   title: { el: "Παρουσίαση 0", en: " Presentation 0" }
-  description: { el: "Παρουσίαση μαθήματος.", en: " Lesson presentation." }
+  description: { el: "Παρουσίαση μαθήματος-Τι είναι ζωή.", en: " Lesson presentation-What is life." }
   file: materials/s4/bio/0.EL_Bio_Unit1_L1_WhatIsLife.pptx
+  type: pptx
+  date: 2026-10-19
+
+  id: s4-bio-sample
+  class: s4
+  subject: bio
+  unit: 1
+  title: { el: "Παρουσίαση 1", en: " Presentation 1" }
+  description: { el: "Κυτταρική θεωρία.", en: " Cell Theory." }
+  file: materials/s4/bio/1.EL_Bio_Unit1_L2_CellTheory.pptx
+  type: pptx
+  date: 2026-10-19
+
+  id: s4-bio-sample
+  class: s4
+  subject: bio
+  unit: 1
+  title: { el: "Παρουσίαση 2", en: " Presentation 2" }
+  description: { el: "Χαρακτηριστικά κυττάρων.", en: " Cell Attributes." }
+  file: materials/s4/bio/2.EL_Bio_Unit1_L3_CellAttributes.pptx
   type: pptx
   date: 2026-10-19
 
