@@ -7,11 +7,11 @@
   class: s4
   subject: bio
   unit: 1
-  title: { el: "Δείγμα σημειώσεων", en: "Sample notes" }
-  description: { el: "Δοκιμαστικό αρχείο PDF.", en: "Test PDF file." }
-  file: /materials/s4/bio/sample.pdf
-  type: pdf
-  date: 2026-10-17
+  title: { el: "Παρουσίαση 0", en: " Presentation 0" }
+  description: { el: "Παρουσίαση μαθήματος.", en: " Lesson presentation." }
+  file: materials/s4/bio/0.EL_Bio_Unit1_L1_WhatIsLife.pptx
+  type: pptx
+  date: 2026-10-19
 
 - id: s5-geo-sample
   class: s5

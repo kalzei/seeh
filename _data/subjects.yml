@@ -5,7 +5,7 @@
 
 - slug: isc
   code: ISC
-  name: { el: "Ολοκληρωμένες Φυσικές Επιστήμες", en: "Integrated Science" }
+  name: { el: "Γενικευμένες Φυσικές Επιστήμες", en: "Integrated Science" }
 
 - slug: sts
   code: STS
