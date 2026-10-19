@@ -2,6 +2,7 @@
 
 Bilingual (Greek / English) Jekyll site on GitHub Pages where students download course material. See [PLAN.md](PLAN.md) for the full plan.
 
+
 ## Structure
 - `_data/classes.yml`: classes S2–S7 and the subjects taught in each
 - `_data/subjects.yml`: subjects BIO, ISC, STS, GEO with their Greek and English names
