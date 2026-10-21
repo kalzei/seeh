@@ -3,52 +3,182 @@
 #   class / subject: slugs from _data/classes.yml
 #   unit:            number (optional; items without a unit are listed as "General")
 #   type:            pdf, docx, pptx, xlsx, zip, img ...
-- id: s4-bio-sample
+- id: s4-bio-0
   class: s4
   subject: bio
   unit: 1
-  title: { el: "Παρουσίαση 0", en: " Presentation 0" }
-  description: { el: "Παρουσίαση μαθήματος-Τι είναι ζωή.", en: " Lesson presentation-What is life." }
+  title: { el: "Παρουσίαση 0", en: "" }
+  description: { el: "Παρουσίαση μαθήματος-Τι είναι ζωή.", en: "" }
   file: materials/s4/bio/0.EL_Bio_Unit1_L1_WhatIsLife.pptx
   type: pptx
   date: 2026-10-19
 
-  id: s4-bio-sample
+- id: s4-bio-1
   class: s4
   subject: bio
   unit: 1
-  title: { el: "Παρουσίαση 1", en: " Presentation 1" }
-  description: { el: "Κυτταρική θεωρία.", en: " Cell Theory." }
+  title: { el: "Παρουσίαση 1", en: "" }
+  description: { el: "Κυτταρική θεωρία.", en: "" }
   file: materials/s4/bio/1.EL_Bio_Unit1_L2_CellTheory.pptx
   type: pptx
   date: 2026-10-19
 
-  id: s4-bio-sample
+- id: s4-bio-2
   class: s4
   subject: bio
   unit: 1
-  title: { el: "Παρουσίαση 2", en: " Presentation 2" }
-  description: { el: "Χαρακτηριστικά κυττάρων.", en: " Cell Attributes." }
+  title: { el: "Παρουσίαση 2", en: "" }
+  description: { el: "Χαρακτηριστικά κυττάρων.", en: "" }
   file: materials/s4/bio/2.EL_Bio_Unit1_L3_CellAttributes.pptx
   type: pptx
   date: 2026-10-19
 
-- id: s5-geo-sample
+- id: s5-geo-0
   class: s5
   subject: geo
   unit: 1
-  title: { el: "Δείγμα σημειώσεων", en: "Sample notes" }
-  description: { el: "Δοκιμαστικό αρχείο PDF.", en: "Test PDF file." }
-  file: /materials/s5/geo/sample.pdf
-  type: pdf
-  date: 2026-10-17
+  title: { el: "", en: "Presentation 0" }
+  description: { el: "", en: "Lesson presentation." }
+  file: materials/s5/geo/0.EN_S5Geo_FeedingTheWorld_L1_Intro.pptx
+  type: pptx
+  date: 2026-10-20
 
-- id: s6-sts-sample
+- id: s5-geo-1
+  class: s5
+  subject: geo
+  unit: 1
+  title: { el: "", en: "Presentation 1" }
+  description: { el: "", en: "Types of Farming" }
+  file: materials/s5/geo/1.EN_S5Geo_FeedingTheWorld_L2_TypesOfFarming.pptx
+  type: pptx
+  date: 2026-10-20
+
+- id: s5-geo-2
+  class: s5
+  subject: geo
+  unit: 1
+  title: { el: "", en: "Presentation 2" }
+  description: { el: "", en: "Types of Farming Systems" }
+  file: materials/s5/geo/2.EN_S5Geo_FeedingTheWorld_L3_TypesOfFarmingSystems.pptx
+  type: pptx
+  date: 2026-10-20
+
+- id: s6-geo-1
+  class: s6
+  subject: geo
+  unit: 1
+  title: { el: "", en: "Presentation 1" }
+  description: { el: "", en: "What is Development" }
+  file: materials/s6/geo/1.EN_S6Geo_Development_L1_WhatIsDevelopment.pptx
+  type: pptx
+  date: 2026-10-20
+
+- id: s6-geo-2
+  class: s6
+  subject: geo
+  unit: 1
+  title: { el: "", en: "Presentation 2" }
+  description: { el: "", en: "Measuring Development" }
+  file: materials/s6/geo/2.EN_S6Geo_Development_L2_MeasuringDevelopment.pptx
+  type: pptx
+  date: 2026-10-20
+
+- id: s6-geo-3
+  class: s6
+  subject: geo
+  unit: 1
+  title: { el: "", en: "Presentation 3" }
+  description: { el: "", en: "Niger" }
+  file: materials/s6/geo/3.EN_S6Geo_Development_L3_Niger.pptx
+  type: pptx
+  date: 2026-10-20
+
+- id: s6-geo-4
+  class: s6
+  subject: geo
+  unit: 1
+  title: { el: "", en: "Presentation 4" }
+  description: { el: "", en: "Maps-History" }
+  file: materials/s6/geo/4.EN_S6Geo_Development_L4_MapsHistory.pptx
+  type: pptx
+  date: 2026-10-20
+
+- id: s6-geo-5
+  class: s6
+  subject: geo
+  unit: 1
+  title: { el: "", en: "Presentation 5" }
+  description: { el: "", en: "Economic Sector" }
+  file: materials/s6/geo/5.EN_S6Geo_Development_L5_EconomicSector.pptx
+  type: pptx
+  date: 2026-10-20
+
+- id: s6-geo-6
+  class: s6
+  subject: geo
+  unit: 1
+  title: { el: "", en: "Presentation 6" }
+  description: { el: "", en: "Development Theories" }
+  file: materials/s6/geo/6.EN_S6Geo_Development_L6_DevelopmentTheories.pptx
+  type: pptx
+  date: 2026-10-20
+
+- id: s6-geo-7
+  class: s6
+  subject: geo
+  unit: 1
+  title: { el: "", en: "Presentation 7" }
+  description: { el: "", en: "Obstacles to Development" }
+  file: materials/s6/geo/7.EN_S6Geo_Development_L7_ObstaclesToDevelopment.pptx
+  type: pptx
+  date: 2026-10-20
+
+- id: s6-sts-1
   class: s6
   subject: sts
   unit: 1
-  title: { el: "Δείγμα σημειώσεων", en: "Sample notes" }
-  description: { el: "Δοκιμαστικό αρχείο PDF.", en: "Test PDF file." }
-  file: /materials/s6/sts/sample.pdf
-  type: pdf
-  date: 2026-10-17
+  title: { el: "Παρουσίαση 1", en: "" }
+  description: { el: "Αγροτική παραγωγή", en: "" }
+  file: materials/s6/sts/1.EL_STS_Unit1_L1_AgriculturalProduction.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s6-sts-2
+  class: s6
+  subject: sts
+  unit: 1
+  title: { el: "Παρουσίαση 2", en: "" }
+  description: { el: "Μεθόδοι καλλιέργειας", en: "" }
+  file: materials/s6/sts/2.FarmingMethods_B_Lykeiou-v2.pptx
+  type: pptx
+  date: 2026-10-21
+  
+- id: s6-sts-3
+  class: s6
+  subject: sts
+  unit: 1
+  title: { el: "Παρουσίαση 3", en: "" }
+  description: { el: "Ζωική παραγωγή", en: "" }
+  file: materials/s6/sts/3.EL_STS_Unit1_L3_AnimalProduction.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s6-sts-4
+  class: s6
+  subject: sts
+  unit: 1
+  title: { el: "Παρουσίαση 4", en: "" }
+  description: { el: "Εκτατική παραγωγή", en: "" }
+  file: materials/s6/sts/4.EL_Topic1_P4_ExtensiveLivestock.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s6-sts-5
+  class: s6
+  subject: sts
+  unit: 1
+  title: { el: "Παρουσίαση 5", en: "" }
+  description: { el: "Αλυσίδα εφοδιασμού τροφίμων", en: "" }
+  file: materials/s6/sts/5.EL_Topic1_P5_FoodSupplyChain.pptx
+  type: pptx
+  date: 2026-10-21
