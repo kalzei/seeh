@@ -35,7 +35,7 @@ layout: default
 
 <section aria-labelledby="latest-heading">
   <h2 id="latest-heading">{{ t.latest }}</h2>
-  {%- assign latest = site.data.materials | sort: "date" | reverse %}
+  {%- assign latest = site.data.materials | where_exp: "m", "m.title[page.lang] != ''" | sort: "date" | reverse %}
   <ul class="materials">
     {%- for item in latest limit: 5 %}
     {% include material-card.html item=item show_class=true %}

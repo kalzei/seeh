@@ -3,6 +3,137 @@
 #   class / subject: slugs from _data/classes.yml
 #   unit:            number (optional; items without a unit are listed as "General")
 #   type:            pdf, docx, pptx, xlsx, zip, img ...
+- id: s2-isc-0
+  class: s2
+  subject: isc
+  unit: 1
+  title: { el: "", en: "Presentation 0" }
+  description: { el: "", en: "Year Overview" }
+  file: materials/s2/isc/0.EN_S2ISC_YearOverview.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s2-isc-1
+  class: s2
+  subject: isc
+  unit: 1
+  title: { el: "", en: "Presentation 1" }
+  description: { el: "", en: "Cosmic Address" }
+  file: materials/s2/isc/1.EN_S2ISC_Universe_L1_CosmicAddress.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s2-isc-2
+  class: s2
+  subject: isc
+  unit: 1
+  title: { el: "", en: "Presentation 2" }
+  description: { el: "", en: "Seasons and Moon" }
+  file: materials/s2/isc/2.EN_S2ISC_Universe_L2_SeasonsAndMoon.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s2-isc-3
+  class: s2
+  subject: isc
+  unit: 1
+  title: { el: "", en: "Presentation 3" }
+  description: { el: "", en: "Eratosthenes" }
+  file: materials/s2/isc/3.EN_S2ISC_Universe_L3_Eratosthenes.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s2-isc-4
+  class: s2
+  subject: isc
+  unit: 1
+  title: { el: "", en: "Presentation 4" }
+  description: { el: "", en: "Recap" }
+  file: materials/s2/isc/4.EN_S2ISC_Universe_L5_Recap.pptx
+  type: pptx
+  date: 2026-10-21
+
+
+- id: s3-isc-0
+  class: s3
+  subject: isc
+  unit: 1
+  title: { el: "Παρουσίαση 0", en: "" }
+  description: { el: "Μηχανική του μέλλοντος", en: "" }
+  file: materials/s3/isc/0.EL_Engineering_the_Future__S3_Integrated_Science_el_(2.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s3-isc-1
+  class: s3
+  subject: isc
+  unit: 1
+  title: { el: "Παρουσίαση 1", en: "" }
+  description: { el: "Εισαγωγή στις δυνάμεις", en: "" }
+  file: materials/s3/isc/1.forces_intro_13yo.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s3-isc-2
+  class: s3
+  subject: isc
+  unit: 1
+  title: { el: "Παρουσίαση 2", en: "" }
+  description: { el: "Διαφορετικές μορφές δυνάμεων", en: "" }
+  file: materials/s3/isc/2.EL_Forces_P4_DifferentForms.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s3-isc-3
+  class: s3
+  subject: isc
+  unit: 1
+  title: { el: "Παρουσίαση 3", en: "" }
+  description: { el: "Βάρος και μάζα", en: "" }
+  file: materials/s3/isc/3.EL_Forces_P5_WeightAndMass.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s3-isc-4
+  class: s3
+  subject: isc
+  unit: 1
+  title: { el: "Παρουσίαση 4", en: "" }
+  description: { el: "Έργο", en: "" }
+  file: materials/s3/isc/4.EL_Work_P7.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s3-isc-5
+  class: s3
+  subject: isc
+  unit: 1
+  title: { el: "Παρουσίαση 5", en: "" }
+  description: { el: "Απλές μηχανές", en: "" }
+  file: materials/s3/isc/5.EL_Machines_P8_SimpleMachines.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s3-isc-6
+  class: s3
+  subject: isc
+  unit: 1
+  title: { el: "Παρουσίαση 6", en: "" }
+  description: { el: "Μοχλοί", en: "" }
+  file: materials/s3/isc/5_ΒΜοχλοί.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s3-isc-7
+  class: s3
+  subject: isc
+  unit: 1
+  title: { el: "Παρουσίαση 7", en: "" }
+  description: { el: "Ενέργεια", en: "" }
+  file: materials/s3/isc/6.EL_Energy_P9_Energy.pptx
+  type: pptx
+  date: 2026-10-21
+
 - id: s4-bio-0
   class: s4
   subject: bio
@@ -49,7 +180,7 @@
   unit: 1
   title: { el: "", en: "Presentation 1" }
   description: { el: "", en: "Types of Farming" }
-  file: materials/s5/geo/1.EN_S5Geo_FeedingTheWorld_L2_TypesOfFarming.pptx
+  file: materials/s5/geo/1.aEN_S5Geo_FeedingTheWorld_L2_TypesOfFarming.pptx
   type: pptx
   date: 2026-10-20
 
@@ -59,7 +190,7 @@
   unit: 1
   title: { el: "", en: "Presentation 2" }
   description: { el: "", en: "Types of Farming Systems" }
-  file: materials/s5/geo/2.EN_S5Geo_FeedingTheWorld_L3_TypesOfFarmingSystems.pptx
+  file: materials/s5/geo/2.EN_S5Geo_FeedingTheWorld_L4_FarmingSystems_Sustainability.pptx
   type: pptx
   date: 2026-10-20
 
@@ -69,7 +200,7 @@
   unit: 1
   title: { el: "", en: "Presentation 1" }
   description: { el: "", en: "What is Development" }
-  file: materials/s6/geo/1.EN_S6Geo_Development_L1_WhatIsDevelopment.pptx
+  file: materials/s6/geo/1.EN_Geo_Development_L1_WhatIsDevelopment.pptx
   type: pptx
   date: 2026-10-20
 
@@ -79,7 +210,7 @@
   unit: 1
   title: { el: "", en: "Presentation 2" }
   description: { el: "", en: "Measuring Development" }
-  file: materials/s6/geo/2.EN_S6Geo_Development_L2_MeasuringDevelopment.pptx
+  file: materials/s6/geo/2.EN_Geo_Development_L2_MeasuringClassifying.pptx
   type: pptx
   date: 2026-10-20
 
@@ -89,7 +220,7 @@
   unit: 1
   title: { el: "", en: "Presentation 3" }
   description: { el: "", en: "Niger" }
-  file: materials/s6/geo/3.EN_S6Geo_Development_L3_Niger.pptx
+  file: materials/s6/geo/3.EN_Geo_Development_L3_NigeriaCaseStudy.pptx
   type: pptx
   date: 2026-10-20
 
@@ -99,7 +230,7 @@
   unit: 1
   title: { el: "", en: "Presentation 4" }
   description: { el: "", en: "Maps-History" }
-  file: materials/s6/geo/4.EN_S6Geo_Development_L4_MapsHistory.pptx
+  file: materials/s6/geo/4.EN_Geo_Development_L4_MapsAndHistory.pptx
   type: pptx
   date: 2026-10-20
 
@@ -109,7 +240,7 @@
   unit: 1
   title: { el: "", en: "Presentation 5" }
   description: { el: "", en: "Economic Sector" }
-  file: materials/s6/geo/5.EN_S6Geo_Development_L5_EconomicSector.pptx
+  file: materials/s6/geo/5.EN_Geo_Development_L5_EconomicSectors.pptx
   type: pptx
   date: 2026-10-20
 
@@ -119,7 +250,7 @@
   unit: 1
   title: { el: "", en: "Presentation 6" }
   description: { el: "", en: "Development Theories" }
-  file: materials/s6/geo/6.EN_S6Geo_Development_L6_DevelopmentTheories.pptx
+  file: materials/s6/geo/6.EN_Geo_Development_L6_TheoriesAndPlayers.pptx
   type: pptx
   date: 2026-10-20
 
@@ -129,7 +260,7 @@
   unit: 1
   title: { el: "", en: "Presentation 7" }
   description: { el: "", en: "Obstacles to Development" }
-  file: materials/s6/geo/7.EN_S6Geo_Development_L7_ObstaclesToDevelopment.pptx
+  file: materials/s6/geo/7.EN_Geo_Development_L7_Obstacles.pptx
   type: pptx
   date: 2026-10-20
 
@@ -139,7 +270,7 @@
   unit: 1
   title: { el: "Παρουσίαση 1", en: "" }
   description: { el: "Αγροτική παραγωγή", en: "" }
-  file: materials/s6/sts/1.EL_STS_Unit1_L1_AgriculturalProduction.pptx
+  file: materials/s6/sts/1.AgriProduction_B_Lykeiou-v2.pptx
   type: pptx
   date: 2026-10-21
 
@@ -152,14 +283,14 @@
   file: materials/s6/sts/2.FarmingMethods_B_Lykeiou-v2.pptx
   type: pptx
   date: 2026-10-21
-  
+
 - id: s6-sts-3
   class: s6
   subject: sts
   unit: 1
   title: { el: "Παρουσίαση 3", en: "" }
   description: { el: "Ζωική παραγωγή", en: "" }
-  file: materials/s6/sts/3.EL_STS_Unit1_L3_AnimalProduction.pptx
+  file: materials/s6/sts/3.EL_Topic1_P3_AnimalProduction.pptx
   type: pptx
   date: 2026-10-21
 
@@ -179,6 +310,66 @@
   unit: 1
   title: { el: "Παρουσίαση 5", en: "" }
   description: { el: "Αλυσίδα εφοδιασμού τροφίμων", en: "" }
-  file: materials/s6/sts/5.EL_Topic1_P5_FoodSupplyChain.pptx
+  file: materials/s6/sts/5.EL_Topic1_P5_FoodSupplyChains.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s7-sts-0
+  class: s7
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 0" }
+  description: { el: "", en: "Weather vs Climate" }
+  file: materials/s7/sts/0.EN_ClimateChange_P1_WeatherVsClimate.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s7-sts-1
+  class: s7
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 1" }
+  description: { el: "", en: "Ocean heat" }
+  file: materials/s7/sts/1.EN_ClimateChange_P2_OceanHeatContent.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s7-sts-2
+  class: s7
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 2" }
+  description: { el: "", en: "Ocean Biological Impacts" }
+  file: materials/s7/sts/2.EN_ClimateChange_P3_OceanBiologicalImpacts.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s7-sts-3
+  class: s7
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 3" }
+  description: { el: "", en: "Ocean Physical Impacts" }
+  file: materials/s7/sts/3.EN_ClimateChange_P4_OceanPhysicalImpacts.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s7-sts-4
+  class: s7
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 4" }
+  description: { el: "", en: "El Nino is reshaping the tropical Pacific" }
+  file: materials/s7/sts/4_El-Nino-is-reshaping-the-tropical-Pacific.pptx
+  type: pptx
+  date: 2026-10-21
+
+- id: s7-sts-5
+  class: s7
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 5" }
+  description: { el: "", en: "Sea Level and Acidification" }
+  file: materials/s7/sts/5.EN_ClimateChange_P5_SeaLevelAndAcidification.pptx
   type: pptx
   date: 2026-10-21

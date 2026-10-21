@@ -6,7 +6,7 @@ layout: default
 <h1>{{ cls.name[page.lang] }}</h1>
 {{ content }}
 
-{%- assign class_items = site.data.materials | where: "class", page.class %}
+{%- assign class_items = site.data.materials | where: "class", page.class | where_exp: "m", "m.title[page.lang] != ''" %}
 {%- for slug in cls.subjects %}
 {%- assign subject = site.data.subjects | where: "slug", slug | first %}
 <section aria-labelledby="subj-{{ subject.slug }}">
@@ -19,8 +19,7 @@ layout: default
   {%- for unit in units %}
   <h3>{% if unit.name == "" %}{{ t.general }}{% else %}{{ t.unit }} {{ unit.name }}{% endif %}</h3>
   <ul class="materials">
-    {%- assign unit_items = unit.items | sort: "date" | reverse %}
-    {%- for item in unit_items %}
+    {%- for item in unit.items %}
     {% include material-card.html item=item %}
     {%- endfor %}
   </ul>
