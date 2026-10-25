@@ -314,6 +314,56 @@
   type: pptx
   date: 2026-10-21
 
+- id: s6-sts-1-en
+  class: s6
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 1" }
+  description: { el: "", en: "Agricultural production" }
+  file: materials/s6/sts/1.EN_Topic1_P1_AgriProduction.pptx
+  type: pptx
+  date: 2026-10-25
+
+- id: s6-sts-2-en
+  class: s6
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 2" }
+  description: { el: "", en: "Farming methods" }
+  file: materials/s6/sts/2.EN_Topic1_P2_FarmingMethods.pptx
+  type: pptx
+  date: 2026-10-25
+
+- id: s6-sts-3-en
+  class: s6
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 3" }
+  description: { el: "", en: "Animal production" }
+  file: materials/s6/sts/3.EN_Topic1_P3_AnimalProduction.pptx
+  type: pptx
+  date: 2026-10-25
+
+- id: s6-sts-4-en
+  class: s6
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 4" }
+  description: { el: "", en: "Extensive livestock farming" }
+  file: materials/s6/sts/4.EN_Topic1_P4_ExtensiveLivestock.pptx
+  type: pptx
+  date: 2026-10-25
+
+- id: s6-sts-5-en
+  class: s6
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 5" }
+  description: { el: "", en: "Food supply chains" }
+  file: materials/s6/sts/5.EN_Topic1_P5_FoodSupplyChains.pptx
+  type: pptx
+  date: 2026-10-25
+
 - id: s7-sts-0
   class: s7
   subject: sts
