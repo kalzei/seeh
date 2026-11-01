@@ -134,6 +134,16 @@
   type: pptx
   date: 2026-10-21
 
+- id: s3-isc-8
+  class: s3
+  subject: isc
+  unit: 1
+  title: { el: "Παρουσίαση 8", en: "" }
+  description: { el: "Ενέργεια – διαγράμματα", en: "" }
+  file: materials/s3/isc/7.Ενέργεια_diagramms.pptx
+  type: pptx
+  date: 2026-10-31
+
 - id: s4-bio-0
   class: s4
   subject: bio
@@ -164,6 +174,26 @@
   type: pptx
   date: 2026-10-19
 
+- id: s4-bio-3
+  class: s4
+  subject: bio
+  unit: 2
+  title: { el: "Παρουσίαση 3", en: "" }
+  description: { el: "Από τα άτομα στον οργανισμό.", en: "" }
+  file: materials/s4/bio/3.EL_Bio_Unit2_L1_LevelsOfOrganization.pptx
+  type: pptx
+  date: 2026-10-31
+
+- id: s4-bio-4
+  class: s4
+  subject: bio
+  unit: 2
+  title: { el: "Παρουσίαση 4", en: "" }
+  description: { el: "Τα μόρια της ζωής (μέρος 1).", en: "" }
+  file: materials/s4/bio/4.EL_Bio_Unit2_L2_MoleculesOfLife_P1.pptx
+  type: pptx
+  date: 2026-10-31
+
 - id: s5-geo-0
   class: s5
   subject: geo
@@ -193,6 +223,26 @@
   file: materials/s5/geo/2.EN_S5Geo_FeedingTheWorld_L4_FarmingSystems_Sustainability.pptx
   type: pptx
   date: 2026-10-20
+
+- id: s5-geo-3
+  class: s5
+  subject: geo
+  unit: 1
+  title: { el: "", en: "Presentation 3" }
+  description: { el: "", en: "Food Inequality" }
+  file: materials/s5/geo/3.EN_S5Geo_FeedingTheWorld_L3_FoodInequality.pptx
+  type: pptx
+  date: 2026-10-31
+
+- id: s5-geo-4
+  class: s5
+  subject: geo
+  unit: 1
+  title: { el: "", en: "Presentation 4" }
+  description: { el: "", en: "Food Waste and the Quality vs Quantity Debate" }
+  file: materials/s5/geo/4.EN_S5Geo_FeedingTheWorld_L5_FoodWaste_QualityVsQuantity.pptx
+  type: pptx
+  date: 2026-10-31
 
 - id: s6-geo-1
   class: s6
@@ -264,6 +314,16 @@
   type: pptx
   date: 2026-10-20
 
+- id: s6-geo-8
+  class: s6
+  subject: geo
+  unit: 1
+  title: { el: "", en: "Presentation 8" }
+  description: { el: "", en: "Reducing the Development Gap: Fairtrade" }
+  file: materials/s6/geo/8.EN_Geo_Development_L8_Solutions.pptx
+  type: pptx
+  date: 2026-10-31
+
 - id: s6-sts-1
   class: s6
   subject: sts
@@ -314,6 +374,26 @@
   type: pptx
   date: 2026-10-21
 
+- id: s6-sts-6
+  class: s6
+  subject: sts
+  unit: 1
+  title: { el: "Παρουσίαση 6", en: "" }
+  description: { el: "Επεξεργασία τροφίμων", en: "" }
+  file: materials/s6/sts/6.EL_Topic1_P6_FoodProcessing.pptx
+  type: pptx
+  date: 2026-10-31
+
+- id: s6-sts-7
+  class: s6
+  subject: sts
+  unit: 1
+  title: { el: "Παρουσίαση 7", en: "" }
+  description: { el: "Ασφάλεια τροφίμων", en: "" }
+  file: materials/s6/sts/7.EL_Topic1_P7_FoodSafety.pptx
+  type: pptx
+  date: 2026-10-31
+
 - id: s6-sts-1-en
   class: s6
   subject: sts
@@ -363,6 +443,26 @@
   file: materials/s6/sts/5.EN_Topic1_P5_FoodSupplyChains.pptx
   type: pptx
   date: 2026-10-25
+
+- id: s6-sts-6-en
+  class: s6
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 6" }
+  description: { el: "", en: "Food processing" }
+  file: materials/s6/sts/6.EN_Topic1_P6_FoodProcessing.pptx
+  type: pptx
+  date: 2026-10-31
+
+- id: s6-sts-7-en
+  class: s6
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 7" }
+  description: { el: "", en: "Food safety" }
+  file: materials/s6/sts/7.EN_Topic1_P7_FoodSafety.pptx
+  type: pptx
+  date: 2026-10-31
 
 - id: s7-sts-0
   class: s7
@@ -423,3 +523,23 @@
   file: materials/s7/sts/5.EN_ClimateChange_P5_SeaLevelAndAcidification.pptx
   type: pptx
   date: 2026-10-21
+
+- id: s7-sts-6
+  class: s7
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 6" }
+  description: { el: "", en: "Surface Temperature and Consilience" }
+  file: materials/s7/sts/6.EN_ClimateChange_P6_TemperatureAndConsilience.pptx
+  type: pptx
+  date: 2026-10-31
+
+- id: s7-sts-7
+  class: s7
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 7" }
+  description: { el: "", en: "Atmospheric CO₂" }
+  file: materials/s7/sts/7.EN_ClimateChange_P7_AtmosphericCO2.pptx
+  type: pptx
+  date: 2026-10-31
