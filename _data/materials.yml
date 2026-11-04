@@ -144,6 +144,16 @@
   type: pptx
   date: 2026-10-31
 
+- id: s3-isc-9
+  class: s3
+  subject: isc
+  unit: 1
+  title: { el: "Παρουσίαση 9", en: "" }
+  description: { el: "Ισχύς", en: "" }
+  file: materials/s3/isc/8.EL_Energy_P10_Power.pptx
+  type: pptx
+  date: 2026-11-04
+
 - id: s4-bio-0
   class: s4
   subject: bio
