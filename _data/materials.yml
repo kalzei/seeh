@@ -53,6 +53,25 @@
   type: pptx
   date: 2026-10-21
 
+- id: s2-isc-5
+  class: s2
+  subject: isc
+  unit: 1
+  title: { el: "", en: "Presentation 5" }
+  description: { el: "", en: "Light: Straight Lines and Shadows" }
+  file: materials/s2/isc/5.EN_S2ISC_Light_L4_StraightLinesAndShadows.pptx
+  type: pptx
+  date: 2026-11-10
+
+- id: s2-isc-6
+  class: s2
+  subject: isc
+  unit: 1
+  title: { el: "", en: "Presentation 6" }
+  description: { el: "", en: "Phases of the Moon" }
+  file: materials/s2/isc/6.EN_S2ISC_Light_L6_MoonPhases.pptx
+  type: pptx
+  date: 2026-11-10
 
 - id: s3-isc-0
   class: s3
@@ -154,6 +173,16 @@
   type: pptx
   date: 2026-11-04
 
+- id: s3-isc-10
+  class: s3
+  subject: isc
+  unit: 1
+  title: { el: "Παρουσίαση 10", en: "" }
+  description: { el: "Απόδοση", en: "" }
+  file: materials/s3/isc/9.EL_Energy_P11_Efficiency.pptx
+  type: pptx
+  date: 2026-11-10
+
 - id: s4-bio-0
   class: s4
   subject: bio
@@ -204,6 +233,16 @@
   type: pptx
   date: 2026-10-31
 
+- id: s4-bio-5
+  class: s4
+  subject: bio
+  unit: 2
+  title: { el: "Παρουσίαση 5", en: "" }
+  description: { el: "Τα μόρια της ζωής (μέρος 2).", en: "" }
+  file: materials/s4/bio/5.EL_Bio_Unit2_L3_MoleculesOfLife_P2.pptx
+  type: pptx
+  date: 2026-11-10
+
 - id: s5-geo-0
   class: s5
   subject: geo
@@ -239,20 +278,30 @@
   subject: geo
   unit: 1
   title: { el: "", en: "Presentation 3" }
-  description: { el: "", en: "Food Inequality" }
-  file: materials/s5/geo/3.EN_S5Geo_FeedingTheWorld_L3_FoodInequality.pptx
+  description: { el: "", en: "Hunger and Waste: Why Food Doesn't Reach Everyone" }
+  file: materials/s5/geo/3.EN_S5Geo_FeedingTheWorld_L5_HungerAndWaste.pptx
   type: pptx
-  date: 2026-10-31
+  date: 2026-11-10
 
 - id: s5-geo-4
   class: s5
   subject: geo
   unit: 1
   title: { el: "", en: "Presentation 4" }
-  description: { el: "", en: "Food Waste and the Quality vs Quantity Debate" }
-  file: materials/s5/geo/4.EN_S5Geo_FeedingTheWorld_L5_FoodWaste_QualityVsQuantity.pptx
+  description: { el: "", en: "Quality vs Quantity, and Palm Oil" }
+  file: materials/s5/geo/4.EN_S5Geo_FeedingTheWorld_L6_QualityVsQuantity_PalmOil.pptx
   type: pptx
-  date: 2026-10-31
+  date: 2026-11-10
+
+- id: s5-geo-5
+  class: s5
+  subject: geo
+  unit: 1
+  title: { el: "", en: "Presentation 5" }
+  description: { el: "", en: "Food vs Fuel: A Land-Use Conflict (and unit review)" }
+  file: materials/s5/geo/5.EN_S5Geo_FeedingTheWorld_L7_FoodVsFuel_Review.pptx
+  type: pptx
+  date: 2026-11-10
 
 - id: s6-geo-1
   class: s6
