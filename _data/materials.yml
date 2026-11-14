@@ -73,6 +73,16 @@
   type: pptx
   date: 2026-11-10
 
+- id: s2-isc-7
+  class: s2
+  subject: isc
+  unit: 1
+  title: { el: "", en: "Presentation 7" }
+  description: { el: "", en: "Eclipses" }
+  file: materials/s2/isc/7.EN_S2ISC_Light_L7_Eclipses.pptx
+  type: pptx
+  date: 2026-11-14
+
 - id: s3-isc-0
   class: s3
   subject: isc
