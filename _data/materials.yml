@@ -612,3 +612,13 @@
   file: materials/s7/sts/7.EN_ClimateChange_P7_AtmosphericCO2.pptx
   type: pptx
   date: 2026-10-31
+
+- id: s7-sts-8
+  class: s7
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 8" }
+  description: { el: "", en: "Methane, and How We Know It Is Us" }
+  file: materials/s7/sts/8.EN_ClimateChange_P8_MethaneAndFingerprints.pptx
+  type: pptx
+  date: 2026-11-14
