@@ -443,6 +443,26 @@
   type: pptx
   date: 2026-10-31
 
+- id: s6-geo-9
+  class: s6
+  subject: geo
+  unit: 2
+  title: { el: "", en: "Presentation 9" }
+  description: { el: "", en: "What Are Natural Resources?" }
+  file: materials/s6/geo/9.EN_Geo_NaturalResources_L9_WhatAreResources.pptx
+  type: pptx
+  date: 2026-11-22
+
+- id: s6-geo-10
+  class: s6
+  subject: geo
+  unit: 2
+  title: { el: "", en: "Presentation 10" }
+  description: { el: "", en: "Comparing Energy Resources" }
+  file: materials/s6/geo/10.EN_Geo_NaturalResources_L10_ComparingEnergy.pptx
+  type: pptx
+  date: 2026-11-22
+
 - id: s6-sts-1
   class: s6
   subject: sts
