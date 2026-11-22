@@ -93,6 +93,26 @@
   type: pptx
   date: 2026-11-18
 
+- id: s2-isc-9
+  class: s2
+  subject: isc
+  unit: 1
+  title: { el: "", en: "Presentation 9" }
+  description: { el: "", en: "Refraction of Light" }
+  file: materials/s2/isc/9.EN_S2ISC_Light_L9_Refraction.pptx
+  type: pptx
+  date: 2026-11-22
+
+- id: s2-isc-10
+  class: s2
+  subject: isc
+  unit: 1
+  title: { el: "", en: "Presentation 10" }
+  description: { el: "", en: "Prisms and Rainbows" }
+  file: materials/s2/isc/10.EN_S2ISC_Light_L10_PrismsAndRainbows.pptx
+  type: pptx
+  date: 2026-11-22
+
 - id: s3-isc-0
   class: s3
   subject: isc
