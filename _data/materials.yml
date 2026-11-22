@@ -223,6 +223,26 @@
   type: pptx
   date: 2026-11-10
 
+- id: s3-isc-11
+  class: s3
+  subject: isc
+  unit: 1
+  title: { el: "Παρουσίαση 11", en: "" }
+  description: { el: "Το ηλεκτρικό φορτίο", en: "" }
+  file: materials/s3/isc/10.EL_Electrostatics_P1_Charge.pptx
+  type: pptx
+  date: 2026-11-22
+
+- id: s3-isc-12
+  class: s3
+  subject: isc
+  unit: 1
+  title: { el: "Παρουσίαση 12", en: "" }
+  description: { el: "Πώς φορτίζονται τα σώματα", en: "" }
+  file: materials/s3/isc/11.EL_Electrostatics_P2_WaysOfCharging.pptx
+  type: pptx
+  date: 2026-11-22
+
 - id: s4-bio-0
   class: s4
   subject: bio
