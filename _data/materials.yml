@@ -692,3 +692,23 @@
   file: materials/s7/sts/8.EN_ClimateChange_P8_MethaneAndFingerprints.pptx
   type: pptx
   date: 2026-11-14
+
+- id: s7-sts-11
+  class: s7
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 11" }
+  description: { el: "", en: "Biodiversity: From Genes to Ecosystems" }
+  file: materials/s7/sts/11.EN_ClimateChange_P11_BiodiversityLevelsAndMeasuring.pptx
+  type: pptx
+  date: 2026-11-23
+
+- id: s7-sts-12
+  class: s7
+  subject: sts
+  unit: 1
+  title: { el: "", en: "Presentation 12" }
+  description: { el: "", en: "Extinction and the Five Drivers of Loss" }
+  file: materials/s7/sts/12.EN_ClimateChange_P12_ExtinctionAndFiveDrivers.pptx
+  type: pptx
+  date: 2026-11-23
